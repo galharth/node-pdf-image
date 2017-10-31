@@ -62,7 +62,7 @@ PDFImage.prototype = {
   getOutputImagePathForPage: function (pageNumber) {
     return path.join(
       this.outputDirectory,
-      this.pdfFileBaseName + "-" + pageNumber + "." + this.convertExtension
+      this.pdfFileBaseName + "." + this.convertExtension
     );
   },
   setConvertOptions: function (convertOptions) {
